@@ -1,0 +1,10 @@
+a=10
+b=14
+c=13
+if (a >= b) and (a >= c):
+    m=a
+elif (b >= a) and (b >= c):
+    m=b
+else:
+    m=c
+print(m)
